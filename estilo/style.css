@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.cabecalho {
+    z-index: 1;
+    background-color: rgb(26, 26, 26);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo-topo {
+    margin-left: 150px;
+    padding: 2px;
+    width: 180px;
+    cursor: pointer;
+    opacity: 100%;
+}
+
+.menu {
+    margin-right: 120px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.menu a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    font-size: 1.1em;
+}
+
+.menu a:hover {
+    transition: 0.5s;
+    color: gray;
+}
+
+.qr-code {
+    margin-right: 100px;
+    padding: 2px;
+    width: 120px;
+    opacity: 100%;
+}
+
+.banner01 {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.home h1 {
+    color: rgb(12, 101, 235);
+    font-weight: 600;
+}
+
+.sobre-nos {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo-sobre {
+    width: 380px;
+}
+
+.sobre-nos h3 {
+    font-weight: 400;
+    text-align: center;
+    width: 1300px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    line-height: 35px;
+}
